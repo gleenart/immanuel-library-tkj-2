@@ -1,0 +1,9 @@
+Pemisahan header dan footer menjadi file component membuat kode menjadi lebih rapi dan mengurangi penulisan kode yang berulang. 
+Header dan footer cukup dibuat satu kali, kemudian dapat digunakan kembali pada halaman dengan menggunakan include atau require. 
+Dengan cara ini, jika terdapat perubahan pada header atau footer, kita hanya perlu memperbaiki satu file tanpa harus mengubah kode yang sama di banyak tempat. 
+Selain itu, struktur program menjadi lebih mudah dipelihara dan dikelola.
+
+Pada halaman admin seperti Buku, Kategori, Penulis, Pengguna, dan Profil, masalah yang sama terdapat pada bagian sidebar dan topbar yang ditulis ulang di setiap halaman. 
+Karena markup-nya berulang, kode menjadi lebih panjang dan sulit dikelola apabila ada perubahan. 
+Oleh karena itu, sidebar dan topbar perlu dipisahkan menjadi component yang dapat digunakan bersama oleh seluruh halaman admin. 
+Dengan begitu, perubahan pada component dapat diterapkan secara konsisten pada semua halaman yang menggunakannya.
