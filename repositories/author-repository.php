@@ -11,6 +11,7 @@ $authors = [
 $author = [
   "id" => 1,
   "name" => "Andrea Hirata",
+  "bio" => "Penulis asal belitung, dikenal lewat novel Laskar Pelangi.",
   "total_books" => 1,
 ];
 
