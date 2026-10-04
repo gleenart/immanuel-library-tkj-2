@@ -18,7 +18,7 @@
 
     <main class="app-main">
     <?php
-    $pageTitle = "Profil saya";
+    $pageTitle = "Profil Saya";
     $pageSubtitle = "Kelola data akun dan profil Anda";
 
     require_once '../../components/admin/topbar.php';

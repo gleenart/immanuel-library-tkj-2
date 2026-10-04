@@ -10,7 +10,7 @@
   <?php
     require '../../repositories/author-repository.php';
 
-    $author = getAuthors();
+    $authors = getAuthors();
   ?>
   <div class="app-shell">
   <?php require_once '../../components/admin/sidebar.php'; ?>
@@ -45,7 +45,7 @@
               </tr>
             </thead>
             <tbody>
-              <?php foreach ($author as $author): ?>
+              <?php foreach ($authors as $author): ?>
                 <tr>
                   <td>
                     <div class="cell-primary">

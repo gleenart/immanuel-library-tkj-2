@@ -26,6 +26,7 @@
         cepat, dan mudah diakses kapan saja.</p>
       <div class="hero-cta">
         <a href="pages/auth/login.php" class="btn btn-primary">Masuk ke Akun</a>
+        <a href="pages/auth/register.php" class="btn btn-primary">Daftar</a>
         <a href="pages/books/index.php" class="btn btn-outline">Lihat Katalog Buku</a>
       </div>
     </div>
@@ -102,7 +103,7 @@
       </div>
     </div>
   </section>
- <?php require_once './components/Landing/footer.php' ?>
+ <?php require_once './components/landing/footer.php' ?>
 </body>
 
 </html>
