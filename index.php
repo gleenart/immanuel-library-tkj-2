@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <?php require_once './components/Landing/header.php' ?>
+  <?php require_once './components/landing/header.php' ?>
 
   <!-- ============ HERO ============ -->
   <section class="hero">
